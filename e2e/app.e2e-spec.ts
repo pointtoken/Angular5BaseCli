@@ -10,7 +10,6 @@ describe('testing-cli App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    browser.pause();
     expect(page.getParagraphText()).toEqual('Main');
   });
 });
